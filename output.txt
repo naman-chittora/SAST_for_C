@@ -1,0 +1,17 @@
+Line 11: Potential integer overflow/underflow in arithmetic operation
+    Code: result = a * b;
+
+Line 15: Use of dangerous function 'gets'
+    Code: gets(buffer);  // Unsafe
+
+Line 16: Use of dangerous function 'strcpy'
+    Code: strcpy(buffer, "Hello");  // Unsafe
+
+Line 22: Use of dangerous function 'system'
+    Code: system("ls -la");
+
+Line 19: Variable 'unused_var' declared but not used
+    Code: Declaration of unused_var
+
+Line 5: Variable 'main' declared but not used
+    Code: Declaration of main
