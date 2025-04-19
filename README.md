@@ -10,10 +10,11 @@ This is a lightweight static analysis tool built in Python to detect potential v
 
 🚀 Usage
 
-~bash
+```bash
 python3 main.py test.c
-
-📥 Example Input 
+```
+📥 Example Input
+```c 
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -39,7 +40,9 @@ int main() {
 
     return 0;
 }
+```
 📤 Sample Output
+```txt
 Line 11: Potential integer overflow/underflow in arithmetic operation
     Code: result = a * b;
 
@@ -57,3 +60,4 @@ Line 19: Variable 'unused_var' declared but not used
 
 Line 5: Variable 'main' declared but not used
     Code: Declaration of main
+```
