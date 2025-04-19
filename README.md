@@ -6,7 +6,6 @@ This is a lightweight static analysis tool built in Python to detect potential v
 ✅ Detects use of **dangerous C functions** like `gets()`, `strcpy()`, `scanf()`, etc.
 ✅ Identifies **integer arithmetic operations** that may cause overflow/underflow.
 ✅ Tracks **declared but unused variables**.
-✅ CLI-based for easy automation and integration.
 
 🚀 Usage
 
